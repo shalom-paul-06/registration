@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 207, 72);
+}
+
+form{
+    display: flex;
+    height: 700px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(146, 77, 235);
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(48, 43, 43, 0.774);
+
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    height: 650px;
+    width: 350px;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    width: 300px;
+    height: 55px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+label{
+    padding-left: 10px;
+}
+input{
+    all: unset;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(182, 175, 175, 0.651);
+    color: black;
+    margin-left: 9px;
+    padding-left: 10px;
+}
+input::placeholder{
+    color: black;
+}
+
+input:hover{
+    transition: transform 0.3s ease; 
+    transform: scale(1.05);
+    background-color: antiquewhite;
+}
+
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 11px;
+    /* background-color: red; */
+
+}           
+.selectContainer label{
+    margin-left: -8px;
+}
+.selectContainer select{
+    all: unset;
+    width: 150px;
+    border: 1px solid black;
+    /* margin-left: 6px; */
+    border-radius: 5px;
+    background-color: rgba(182, 175, 175, 0.651);
+}
+select:hover{
+    transition: transform 0.3s ease; 
+    transform: scale(1.05);
+}
+.submit{
+    all: unset;
+    width: 240px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: wheat;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgb(36, 155, 36);
+    cursor: pointer;
+}
+
+
+.subContainer{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+}

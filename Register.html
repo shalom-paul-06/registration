@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <form action="">
+        <div class="main-container">
+            <div class="subContainer">
+                <label for="FirstName">First Name *</label>
+                <input type="text" name="FirstName" >
+            </div>
+
+            <div class="subContainer">
+                <label for="LastName">Last Name  *</label>
+                <input type="text" name="LastName">
+            </div>
+            
+            <div class="subContainer">
+                <label for="Email">Email *</label>
+                <input type="email" name="Email">
+            </div>
+            
+            
+             <div class="subContainer">
+                 <label for="phone">Phone Number *</label>
+                 <input type="number" name="phone">
+             </div>
+            
+            <div class="subContainer">
+                <label for="PassWord">Password *</label>
+                <input type="PassWord" name="PassWord">
+            </div>
+            <div class="selectContainer">
+                <label for="dept">Select Dept *</label>
+                <select name="dept" id="dept" required>
+                    <option value="">---Select---</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CSM">CSM</option>
+                    <option value="AI/ML">AI/ML</option>
+                </select>
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
